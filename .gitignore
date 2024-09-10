@@ -20,25 +20,6 @@ VERSION
 !/exts/*/config/*
 !/extsPhysics/*/config/*
 
-# !/exts/**/
-# !/extPhysics/**/
-# !**/*.py
-# !**/*.toml
-# !**/*.md
-# !requirements.txt
-# !**/*.urdf
-# !**/omni
-
-# /exts/**/*
-# /extPhysics/**/*
-
-# !/exts/**/*.py
-# !/exts/**/*.toml
-# !/exts/**/*.md
-# !/extPhysics/**/*.py
-# !/extPhysics/**/*.toml
-# !/extPhysics/**/*.md
-
 # Files to ignore
 !*.py
 !*.pyi
