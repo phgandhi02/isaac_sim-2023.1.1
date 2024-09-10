@@ -1,0 +1,31 @@
+[cloner]
+reloadable = true
+order = 0
+
+[package]
+version = "0.7.2"
+category = "Simulation"
+title = "Isaac Sim Cloner"
+description = "Cloner"
+authors = ["NVIDIA"]
+repository = ""
+keywords = ["isaac"]
+changelog = "docs/CHANGELOG.md"
+readme = "docs/README.md"
+icon = "data/icon.png"
+writeTarget.kit = true
+
+[dependencies]
+"omni.usd" = {}
+"omni.usd.libs" = {}
+"omni.physx" = {}
+"omni.isaac.ml_archive" = {}  # needed for torch
+
+[[python.module]]
+name = "omni.isaac.cloner"
+
+[[test]]
+dependencies = [
+    "omni.physx",
+    "omni.isaac.core"
+]
